@@ -1,0 +1,10 @@
+<%if(data.length!=0){%>
+<table border='2'>
+<%for(var i=0;i<data.length;i++){%>
+<tr><td><%=data[i].user_name%></td><td><%=data[i].id%></td></tr>
+<%}%>
+</table>
+
+<% }else{ %>
+   <h1>please register first</h1>
+ <% } %>
